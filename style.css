@@ -97,3 +97,15 @@
     transform: scale(0.8);
     transition: 0.3s;
 }
+
+.ex-6-img:hover{
+    filter: grayscale();
+    
+
+}
+
+.ex-7-img:hover{
+    filter: grayscale();
+    transition: 2s;
+
+}
