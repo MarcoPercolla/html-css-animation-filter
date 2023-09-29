@@ -99,13 +99,28 @@
 }
 
 .ex-6-img:hover{
-    filter: grayscale();
+    filter: grayscale(4);
     
 
 }
 
 .ex-7-img:hover{
-    filter: grayscale();
+    filter: grayscale(6) invert(2);
     transition: 2s;
+
+}
+
+.ex-8-img:hover{
+    filter: invert(1) hue-rotate(245deg);
+    transition: 2s;
+    border-radius: 25px;
+
+}
+
+.ex-9-img:hover{
+    filter: invert(1) hue-rotate(145deg);
+    transition: 2s;
+    border-radius: 25px;
+    transform: scale(0.8);
 
 }
