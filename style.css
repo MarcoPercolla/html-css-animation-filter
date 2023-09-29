@@ -126,10 +126,8 @@
 }
 
 .ex-10-icon {
-    animation-name: loading;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: loading 1s linear infinite;
+    
 }
 
 @keyframes loading {
@@ -148,3 +146,37 @@
         transform: rotate(270deg);
     }
 }
+
+.ex-12-bottom-white {
+    animation-name: movelr;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes movelr {
+    0%{ right: 20%;}
+    40%{ right: calc(100% - 60px) }
+    80%{right:20%}
+    100%{right:0}
+
+}
+
+.ex-12-top-white {
+    animation-name: moverl;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes moverl {
+    0%{ left: 20%;}
+    40%{ left: calc(100% - 60px) }
+    80%{left:20%}
+    100%{left:0}
+
+}
+
+.ex-13-bottom-white
