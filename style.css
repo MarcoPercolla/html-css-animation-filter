@@ -190,11 +190,11 @@
         right: 20%;
     }
     30% {
-        right: calc(100% - 30px);
+        right: calc(100% - 40px);
         bottom: -10px;
     }
     45% {
-        right: calc(100% - 30px);
+        right: calc(100% - 40px);
         bottom: calc(100% - 10px);
     }
     75% {
