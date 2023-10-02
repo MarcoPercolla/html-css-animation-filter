@@ -180,11 +180,10 @@
 }
 
 .ex-13-bottom-white {
-    background-color: red;
-    animation: bottom 1.5s linear infinite
+    animation: movebottom 2s linear infinite;
 }
 
-@keyframes bottom {
+@keyframes movebottom {
 
     0% {
         bottom: -10px;
@@ -211,7 +210,37 @@
         right: 20%;
     }
 
+}
 
-   
+.ex-13-top-white {
+    animation: movetop 2s linear infinite;
+}
+
+@keyframes movetop{
+
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    75% {
+        left: -15px;
+        top: calc(100% - 10px);
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
 
 }
